@@ -133,16 +133,10 @@ inquirer
   
   `;
 
-    fs.writeFile(
-      "README.md",
-      // JSON.stringify(data),
-      readMeText,
-
-      //GAP HERE
-      (err) =>
-        err
-          ? console.log(err)
-          : console.log("You have successfully created a new Readme!")
+    fs.writeFile("autoREADME.md", readMeText, (err) =>
+      err
+        ? console.log(err)
+        : console.log("You have successfully created a new Readme!")
     );
   });
 

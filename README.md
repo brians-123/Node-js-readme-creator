@@ -12,7 +12,11 @@
 
 ## Description <a id="description"></a> :page_facing_up:
 
-This project uses node.js and the inquirer npm package to prompt a user with questions and collect their answers. The answers are then used to generate a readme.md file, with section headers, bullets, and icons in a standardized format.
+This project uses node.js and the inquirer npm package to prompt a user with questions and collect their answers. The answers are then used to generate a readme.md file. The readme contains section headers, bullets, hyperlinks, and icons to build a professional readme.
+
+An example readme generated through this application is contained in the 'autoREADME.md' file. When the application is run, it will overwrite the file.
+
+Here is a [demo](https://drive.google.com/file/d/1n2ufITo8I2avMhoGugxXL2UQBWANRtZS/view)
 
 ## Installation <a id="installation"></a> :floppy_disk:
 
@@ -49,8 +53,6 @@ No tests have been used in this application
 
 [github account](https://github.com/brians-123)
 
-Because this application won’t be deployed, you’ll also need to provide a link to a walkthrough video that demonstrates its functionality. Revisit the Screencastify Tutorial in the prework as a refresher on how to record video from your computer. You’ll need to submit a link to the video _and_ add it to the README of your project.
-
 ## User Story
 
 ```md
@@ -78,36 +80,6 @@ THEN this is added to the section of the README entitled Questions, with instruc
 WHEN I click on the links in the Table of Contents
 THEN I am taken to the corresponding section of the README
 ```
-
-## Getting Started
-
-Here are some guidelines to help you get started:
-
-- Create a `.gitignore` file and include `node_modules/` and `.DS_Store/` so that your `node_modules` directory isn't tracked or uploaded to GitHub. Be sure to create your `.gitignore` file before installing any npm dependencies.
-
-- Make sure that your repo includes a `package.json` with the required dependencies. You can create one by running `npm init` when you first set up the project, before installing any dependencies.
-
-- Include a video of the typical user flow through your application. This includes views of the prompts and the responses after their selection.
-
-- Include any other screenshots you deem necessary to help someone who has never been introduced to your application understand the purpose and function of it. This is how you will communicate to potential employers or other developers in the future what you built and why, and to show how it works.
-
-## Grading Requirements
-
-This homework is graded based on the following criteria:
-
-### Deliverables: 20%
-
-- A sample README generated using the application must be submitted.
-
-- Your GitHub repository containing your application code.
-
-### Walkthrough Video: 27%
-
-- A walkthrough video that demonstrates the functionality of the README generator must be submitted, and a link to the video should be included in your README file.
-
-- The walkthrough video must demonstrate how a user would invoke the application from the command line.
-
-- The walkthrough video must demonstrate how a user would enter responses to all of the prompts in the application.
 
 ---
 
