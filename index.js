@@ -133,7 +133,7 @@ inquirer
   
   `;
 
-    fs.writeFile("autoREADME.md", readMeText, (err) =>
+    fs.writeFile("./output/README.md", readMeText, (err) =>
       err
         ? console.log(err)
         : console.log("You have successfully created a new Readme!")
