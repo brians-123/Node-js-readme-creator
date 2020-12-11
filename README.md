@@ -14,9 +14,9 @@
 
 This project uses node.js and the inquirer npm package to prompt a user with questions and collect their answers. The answers are then used to generate a readme.md file. The readme contains section headers, bullets, hyperlinks, and icons to build a professional readme.
 
-An example readme generated through this application is contained in the 'autoREADME.md' file. When the application is run, it will overwrite the file.
+An example readme generated through this application is contained in the 'README.md' within the output folder. When the application is run, it will overwrite the file.
 
-Here is a [demo](https://drive.google.com/file/d/1n2ufITo8I2avMhoGugxXL2UQBWANRtZS/view)
+Here is a [demo](https://drive.google.com/file/d/1vs1ipBXnDzJ_MHrs7N2eY_ujZSpHriEF/view)
 
 ## Installation <a id="installation"></a> :floppy_disk:
 

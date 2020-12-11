@@ -111,7 +111,7 @@ inquirer
   ${data.description}
 
   ## Installation <a id="installation"></a> :floppy_disk:
-  ${data.install}
+  ${data.installation}
   
   ## Usage <a id="usage"></a> :computer:
   ${data.usage}
