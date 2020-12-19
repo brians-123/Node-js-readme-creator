@@ -95,10 +95,9 @@ inquirer
   .then((data) => {
     const licenseType = "";
     let licenseTerms = "";
-    const readMeText = `# Project Title
-    ${data.title}
-
-  # Table of Contents :book:
+    const readMeText = `# ${data.title}
+    
+  ## Table of Contents :book:
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
