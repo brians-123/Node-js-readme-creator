@@ -37,6 +37,11 @@ const questions = [
   },
   {
     type: "input",
+    message: "What is the user story?",
+    name: "userStory",
+  },
+  {
+    type: "input",
     message: "How can I install the program?",
     name: "installation",
   },
@@ -99,6 +104,7 @@ inquirer
     
   ## Table of Contents :book:
   - [Description](#description)
+  - [User Story](#user-story)
   - [Installation](#installation)
   - [Usage](#usage)
   - [License](#license)
@@ -108,6 +114,9 @@ inquirer
 
   ## Description <a id="description"></a> :page_facing_up:
   ${data.description}
+
+  ## User Story <a id="user-story"></a> :woman:
+  ${data.userStory}
 
   ## Installation <a id="installation"></a> :floppy_disk:
   ${data.installation}
